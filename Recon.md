@@ -2,7 +2,7 @@
 
 ## Nmap
 
-Service, OS detection, all ports, XML output : 
+Command exemple : 
 ```nmap -sS -p- -A -T4 -oX scan.xml X.X.X.X```
 
 - -sS : TCP SYN port scan (Default)
