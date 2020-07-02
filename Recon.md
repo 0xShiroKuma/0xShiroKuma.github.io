@@ -1,4 +1,4 @@
-#N etwork scan
+# Network scan
 
 ## Nmap
 
