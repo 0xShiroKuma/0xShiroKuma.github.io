@@ -3,7 +3,7 @@
 ## Nmap
 
 Command exemple : 
-```nmap -sS -A -T4 -p- -Pn -oX scan.xml X.X.X.X```
+```nmap -sS -A -T4 -p- -Pn -sV -sC -oX scan.xml X.X.X.X```
 
 - -sS : TCP SYN port scan (Default)
 - -A : Enables OS detection, version detection, script scanning, and traceroute
@@ -11,3 +11,4 @@ Command exemple :
 - -oX : XML output
 - -p- : Full TCP port scan
 - -Pn : Disable Ping scanning
+- -sV -sC : Scan using default safe scripts
