@@ -12,3 +12,5 @@ Command exemple :
 - -p- : Full TCP port scan
 - -Pn : Disable Ping scanning
 - -sV -sC : Scan using default safe scripts
+
+```sudo nmap -sU --top-port 1000 -T4 -Pn -sV -sC -oX UDP_scan.xml X.X.X.X```
