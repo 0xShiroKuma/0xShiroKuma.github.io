@@ -16,6 +16,7 @@
 ### Tools
 - [**Go**] [getallurls (gau)](https://github.com/lc/gau) fetches known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl for any given domain. For Subdomain-Enumeration.
 - [**Online**] [Subdomainfinder](https://subdomainfinder.c99.nl/] a tool which performs an advanced scan over the specified domain and tries to find as many subdomains as possible. While scanning it also checks whether the domain is tunneling through CloudFlare.
+- [**Python**] [HostHunter](https://github.com/SpiderLabs/HostHunter) a tool to efficiently discover and extract hostnames providing a large set of target IP addresses. HostHunter utilises simple OSINT techniques to map IP addresses with virtual hostnames.
 
 
 ## WebSite crawling
