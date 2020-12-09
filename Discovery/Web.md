@@ -11,7 +11,20 @@
   - Virtual Host names on target web servers.
   - Open Amazon S3 buckets
 
-## Web crawling
+## WebSite crawling
 
 ### Tools 
 - [**Python**] [Photon](https://github.com/s0md3v/Photon) Incredibly fast crawler designed for OSINT. Photon can extract the following data while crawling: URLs, intel (emails, social media accounts, amazon buckets etc.), Files, Secret keys...
+- [**Go**] [GoSpider](https://github.com/jaeles-project/gospider) Fast web spider written, features:
+  - Fast web crawling
+  - Brute force and parse sitemap.xml
+  - Parse robots.txt
+  - Generate and verify link from JavaScript files
+  - Link Finder
+  - Find AWS-S3 from response source
+  - Find subdomains from response source
+  - Get URLs from Wayback Machine, Common Crawl, Virus Total, Alien Vault
+  - Format output easy to Grep
+  - Support Burp input
+  - Crawl multiple sites in parallel
+  - Random mobile/web User-Agent
