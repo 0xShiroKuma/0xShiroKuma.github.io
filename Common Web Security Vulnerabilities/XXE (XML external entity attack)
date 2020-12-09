@@ -1,4 +1,4 @@
-# XXE [TEMP]
+# XXE (XML external entity attack) [TEMP]
 
 1. Look for content-type XML in HTTP request POST or GET
 
