@@ -10,6 +10,9 @@
   - DNS subdomains (with wildcard support).
   - Virtual Host names on target web servers.
   - Open Amazon S3 buckets
+ - [**Go**] [getallurls (gau)](https://github.com/lc/gau) fetches known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl for any given domain. For Subdomain-Enumeration.
+
+
 
 ## WebSite crawling
 
@@ -32,3 +35,5 @@
   - Support Burp input
   - Crawl multiple sites in parallel
   - Random mobile/web User-Agent
+  
+  
