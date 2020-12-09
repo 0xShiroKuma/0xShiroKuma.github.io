@@ -1,17 +1,17 @@
 # Hosts/network scan
 
 ## Tools
-- [** **] [Nmap](https://github.com/nmap/nmap)
+### [**Multi language**] [Nmap](https://github.com/nmap/nmap)
 
 TCP scan exemple : 
 ```nmap -sS -A -T4 -p- -Pn -sV -sC -oX scan.xml X.X.X.X```
-    - -sS : TCP SYN port scan (Default)
-    - -A : Enables OS detection, version detection, script scanning, and traceroute
-    - -T4 : Aggressive (4) speeds scans; assumes you are on a reasonably fast and reliable network
-    - -p- : Full TCP port scan
-    - -Pn : Disable Ping scanning
-    - -sV -sC : Scan using default safe scripts
-    - -oX : XML output
+- -sS : TCP SYN port scan (Default)
+- -A : Enables OS detection, version detection, script scanning, and traceroute
+- -T4 : Aggressive (4) speeds scans; assumes you are on a reasonably fast and reliable network
+- -p- : Full TCP port scan
+- -Pn : Disable Ping scanning
+- -sV -sC : Scan using default safe scripts
+- -oX : XML output
 
 
 UDP scan exemple :
@@ -29,3 +29,5 @@ Other usefull parameters :
   
 # DNS discovery
 
+## Tools
+- [**C**] [MassDNS](https://github.com/blechschmidt/massdns) MassDNS is a simple high-performance DNS stub resolver targeting those who seek to resolve a massive amount of domain names in the order of millions or even billions.
