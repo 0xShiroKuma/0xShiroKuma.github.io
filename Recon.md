@@ -25,4 +25,4 @@ UDP scan exemple :
 - -oX : XML output
 
 Other usefull parameters : 
-  - iL targets.txt : Scan the given hosts in the "targets.txt" file
+  - -iL targets.txt : Scan the given hosts in the "targets.txt" file
