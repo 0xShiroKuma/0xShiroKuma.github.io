@@ -1,8 +1,8 @@
 # Web discovery
 
-## Content discovery
+## Content discovery by brute force
 
-## Tools 
+### Tools 
 - [**Rust**] [Feroxbuster](https://github.com/epi052/feroxbuster) A simple, fast, recursive content discovery tool written in Rust
 - [**Shell**] [Byp4xx](https://github.com/lobuhi/byp4xx) A bash script to bypass "403 Forbidden" responses with well-known methods discussed in #bugbountytips.
 - [**Go**] [Gobuster](https://github.com/OJ/gobuster) a tool used to brute-force:
@@ -10,8 +10,12 @@
   - DNS subdomains (with wildcard support).
   - Virtual Host names on target web servers.
   - Open Amazon S3 buckets
- - [**Go**] [getallurls (gau)](https://github.com/lc/gau) fetches known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl for any given domain. For Subdomain-Enumeration.
+  
+## Subdomain discovery
 
+### Tools
+- [**Go**] [getallurls (gau)](https://github.com/lc/gau) fetches known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl for any given domain. For Subdomain-Enumeration.
+- [**Online**] [Subdomainfinder](https://subdomainfinder.c99.nl/] a tool which performs an advanced scan over the specified domain and tries to find as many subdomains as possible. While scanning it also checks whether the domain is tunneling through CloudFlare.
 
 
 ## WebSite crawling
