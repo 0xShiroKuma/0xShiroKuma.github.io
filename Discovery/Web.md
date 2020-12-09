@@ -1,5 +1,10 @@
 # Web discovery
 
+## Content discovery
+
+## Tools 
+- [**Rust**] [Feroxbuster](https://github.com/epi052/feroxbuster) A simple, fast, recursive content discovery tool written in Rust
+
 ## Web crawling
 
 ### Tools 
