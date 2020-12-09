@@ -26,7 +26,10 @@ UDP scan exemple :
 
 Other usefull parameters : 
   - -iL targets.txt : Scan the given hosts in the "targets.txt" file
-  
+
+Beautify your nmap report :
+- [**xlsx**] [nmap-bootstrap-xsl](https://github.com/honze-net/nmap-bootstrap-xsl) a Nmap XSL implementation with Bootstrap.
+
 # DNS discovery
 
 ## Tools
