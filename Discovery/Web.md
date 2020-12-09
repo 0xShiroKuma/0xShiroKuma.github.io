@@ -14,7 +14,11 @@
 ## WebSite crawling
 
 ### Tools 
-- [**Python**] [Photon](https://github.com/s0md3v/Photon) Incredibly fast crawler designed for OSINT. Photon can extract the following data while crawling: URLs, intel (emails, social media accounts, amazon buckets etc.), Files, Secret keys...
+- [**Python**] [Photon](https://github.com/s0md3v/Photon) Incredibly fast crawler designed for OSINT. Photon can extract the following data while crawling: 
+  - URLs
+  - intel (emails, social media accounts, amazon buckets etc.)
+  - Files
+  - Secret keys...
 - [**Go**] [GoSpider](https://github.com/jaeles-project/gospider) Fast web spider written, features:
   - Fast web crawling
   - Brute force and parse sitemap.xml
