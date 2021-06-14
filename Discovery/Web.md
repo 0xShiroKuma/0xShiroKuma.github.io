@@ -4,6 +4,10 @@
 
 ### Tools 
 - [**Rust**] [Feroxbuster](https://github.com/epi052/feroxbuster) A simple, fast, recursive content discovery tool written in Rust
+
+Scan exemple throught a sock proxy and using a wordlist :
+`feroxbuster --proxy socks5://127.0.0.1:9150 --url https://test.com/ --wordlist ~/snap/feroxbuster/common/SecLists/Discovery/Web-Content/Common-PHP-Filenames.txt`
+
 - [**Shell**] [Byp4xx](https://github.com/lobuhi/byp4xx) A bash script to bypass "403 Forbidden" responses with well-known methods discussed in #bugbountytips.
 - [**Go**] [Gobuster](https://github.com/OJ/gobuster) a tool used to brute-force:
   - URIs (directories and files) in web sites.
